@@ -1,6 +1,20 @@
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-10 07:54+0200\n"
+"PO-Revision-Date: 2022-10-10 05:54+0000\n"
+"Last-Translator: waroad <doha2012@naver.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/knu/"
+"2022_knu_hack122/ko/>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+#
 
 #: wow.md:block 2 (header)
 msgid "Security"
@@ -23,7 +37,7 @@ msgid ""
 "owned repository that meets [Microsoft's definition of a security "
 "vulnerability](https://docs.microsoft.com/en-us/previous-versions/tn-"
 "archive/cc751383(v=technet.10)), please report it to us as described below."
-msgstr ""
+msgstr "asdfsdafsd/."
 
 #: wow.md:block 5 (header)
 msgid "Reporting Security Issues"
