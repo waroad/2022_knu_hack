@@ -1,0 +1,24 @@
+name: test
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: poll-github-repo/action@v1
+        with:
+          repo-to-sync: waroad/test1234
+          path-to-sync: README.md
+          cache-path: .last-sync
+          tracking-issue-label: upstream-data-txt
+          tracking-issue-title: "Update on {{ path }}: {{ sha-short }}"
+          tracking-issue-body: |
+            New commit in waroad/test1234:
+            **{{ message }}** [link]({{ url }})
+          token: ${{ secrets.GITHUB_TOKEN }}
+          yes-create-issues: true
